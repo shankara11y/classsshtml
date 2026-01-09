@@ -4,50 +4,173 @@
     <meta>
     <title>
         HTML Practice Page
-
     </title>
 
+    <style>
+        h1 {
+            color: rgb(143, 220, 220);
+            text-align: center;
+            font-size: large;
+            text-shadow: 2px 2px rgb(85, 59, 111);
+
+        }
+
+        h1:hover {
+            color: rgb(34, 223, 160);
+        }
+
+        h3 {
+            letter-spacing: 3px;
+            opacity: 4cm;
+            color: rgb(96, 214, 214);
+        }
+
+        .text {
+            background-color: rgb(15, 15, 107);
+            border-radius: 3cm;
+            border-style:solid;
+            background-color: rgb(149, 102, 193);
+            padding: 10px ;
+            line-height: 25px;
+            color: rgb(168, 70, 86)
+            color(srgb red green blue)
+            
+        }
+
+        
+        hr{
+            color: cadetblue;
+            width: 50cm;
+            height: 5px;
+            border-style: solid;
+            border-radius: 5px;
+        }
+
+        ul{
+            list-style:disc;
+            letter-spacing: 4px;
+            background-color: bisque;
+            border-style: solid;
+
+        }
+        ol{
+            list-style: upper-roman;
+            font-weight: bold;
+
+        }
+       .emaillink {
+    color: crimson;          
+    text-decoration: none;   
+    
+}
+
+.emaillink:hover {
+    text-decoration: underline;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+
+    border: 1px solid #ddd;     
+    border-radius: 12px;         
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+.span {
+    color: rgb(154, 210, 98);     
+    font-size: 1.2em;      
+    font-weight: bold;    
+}
+
+.imp {
+    transform: rotate(2deg);
+    border: 1px solid;
+}
+
+.mybutton {
+    padding: 12px 24px;          
+    border-radius: 25px;        
+    border: none;
+
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;             
+    
+}
+
+.mybutton:hover {
+    background-color: darkred;                 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);  
+                    
+}
+
+footer{
+    color:rgb(192, 173, 100)
+}
 
 
+    </style>
 </head>
 
-<body>
+<body style = "background-color: antiquewhite;">
     <h1 id="Heading1">
         This is main heading
-
     </h1>
-    <h3 style = "color: blue;">>
+    <h3>
         This is sub heading
     </h3>
 
-    <p class="text"> HTML is a hyper text markup language , it is used for <strong>creating webpage </strong> and
+    <pre class="text">
+        The clock forgets the hour,
+        and the window hums with rain.
+        A paper boat of thoughts drifts by,
+        unaware of names or pain.
+
+        And somewhere in the pause of time,
+        between a breath and sigh,
+        the world feels small enough to hold,
+        yet wide enough to fly.<strong>creating webpage </strong> and
         structuring it
         <i>this is italics</i>
         <b>this is bold</b>
-        <em>this is em</em>
+        <em>this is em</em></pre>
+<hr>
+<p class ="imp">And somewhere in the pause of time,</p>
 
-
-    <ul>My favorite language</ul>
+    <p><ul>My favorite language</ul>
     <li> English</li>
     <li> Telugu</li>
     <li>Hindi</li>
     <br>
     <br>
-<hr>
+    <hr>
     <ol>My fav Food
         <li>egg</li>
         <li>bread</li>
         <li>curry</li>
     </ol>
     <hr>
-    <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQfBGhCzsGmCszpmxpGpNNlrMxC" class = "emaillink" style= "color: crimson;" > Email of homework</a>
+    <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQfBGhCzsGmCszpmxpGpNNlrMxC" class="emaillink"
+        style="color: crimson;"> Email of homework</a>
 
-    <div>
-        This is div , i have to use <span style = "color: chartreuse;">span here</span>
-    </div>
+   <div class="card">
+    This is div , i have to use 
+    <span class="span">this is span</span>
 
-    <button class = "my button" > submit</button>
+</div>
+
+
+   <button class="mybutton">Click Me !!</button>
+
     </p>
+    
 </body>
 <footer>
     This is footer
