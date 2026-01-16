@@ -1,0 +1,155 @@
+ body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .small-heading {
+            color: #1c6764;
+            font-weight: bold;
+            text-align: center;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background-color: #1c6764;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #fffdfd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #1c6764;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .allcontent {
+
+            display: table;
+
+
+        }
+
+        .row {
+            display: table-row;
+        }
+
+
+        .content {
+            display: table-cell;
+            padding: 10px;
+        }
+
+        .content img {
+            width: 200px;
+        }
+
+        img {
+            height: 250px;
+        }
+
+        #img4 {
+            height: 250px;
+        }
+
+
+        .theory-section {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 20px 40px;
+            line-height: 1.7;
+            color: #333;
+        }
+
+
+        .theory-section h2 {
+            text-align: center;
+            color: #1c6764;
+            margin-bottom: 20px;
+        }
+
+
+        .theory-section h3 {
+            color: #1c6764;
+            margin-top: 30px;
+        }
+
+
+        .theory-section p {
+            margin-bottom: 15px;
+        }
+
+
+        .theory-section ul {
+            margin-left: 20px;
+        }
+
+
+        .theory-section li {
+            margin-bottom: 10px;
+        }
+
+
+        
+        footer {
+            background-color: #2f4f4f;
+            color: white;
+            padding: 40px 20px;
+            margin-top: 80px;
+        }
+
+
+        .footer-container {
+            max-width: 1100px;
+           
+        }
+
+
+        .footer-columns {
+            display: table;
+            width: 100%;
+        }
+
+
+        .footer-column {
+            display: table-cell;
+            padding: 10px 20px;
+        }
+
+
+        .footer-column h4 {
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+
+
+        .footer-column a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+
+
+        .footer-column a:hover {
+            text-decoration: underline;
+        }
+
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #ccc;
+        }
